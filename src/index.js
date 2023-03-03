@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { RectanglesProvider } from './state/RectanglesState';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <RectanglesProvider>
     <App />
-  </React.StrictMode>,
+  </RectanglesProvider>,
   document.getElementById('root')
 );
