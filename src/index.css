@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.canvas-container {
+  position: relative;
+}
+
+.canvas {
+  border: 2px solid black;
+}
+
+.color-control-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.mode-switch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.mode-switch-button {
+  margin: 0 10px;
+}
+
+.rectangle {
+  position: absolute;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.rectangle:hover {
+  border-color: red;
+}
